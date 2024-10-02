@@ -1,0 +1,40 @@
+:root{
+    --buttons:rgb(255, 165, 0, 0.4);
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 25px;
+    background-color: beige;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+input{
+    width: 300px;
+}
+button{
+    background-color: transparent;
+    border: none;
+    background-color: var(--buttons);
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 20px;
+
+}
+div{
+    display: flex;
+    justify-content: center;
+    background-color: var(--buttons);   
+     width: 300px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 15px;
+}

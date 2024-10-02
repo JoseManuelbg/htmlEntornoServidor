@@ -8,7 +8,7 @@
 <body>
     <?php 
     if ((!empty($_GET["name"]) && !empty($_GET["age"])) && is_numeric($_GET["age"])) {
-        echo "Hola: " . ($_GET["name"]) ;
+        echo "Hola: " . htmlspecialchars($_GET["name"]) ;
         if (($_GET["age"]) > 18){
             echo  " tienes: " . ($_GET["age"]) . " Eres mayor de edad";        
         } else if (($_GET["age"]) < 18) {

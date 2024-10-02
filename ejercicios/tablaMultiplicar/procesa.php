@@ -8,7 +8,7 @@
 <body>
 <?php 
     $number = $_GET["num"];
-    echo "Tabla de multiplicar del: " . $number . "<br>";
+    echo "Tabla de multiplicar del: " . $number . "";
     for ($i = 0; $i <= 10; $i++) { 
         echo "<div> | $number x $i = " . ($number * $i) . " | </div>";
     }
